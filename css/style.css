@@ -19,9 +19,17 @@ body {
   margin: 0px;
 }
 
-h1, h2, h3 {
+h1, h3 {
   font-family: 'Poppins'; 
   font-weight: bold;
+}
+
+h2 {
+  background: -webkit-linear-gradient(#A242FF, #F5576C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-style: 24px ; 
+    margin-bottom: 10px;
 }
 
 a {
